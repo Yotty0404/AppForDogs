@@ -1,0 +1,32 @@
+body{
+  margin:0;
+  padding:0;
+  scrollbar-width: none; /*Firefox対応のスクロールバー非表示コード*/  
+  -ms-overflow-style: none;/*Internet Explore対応のスクロールバー非表示コード*/  
+
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  touch-action: none;
+}
+body::-webkit-scrollbar {  
+  display: none; /*Google Chrome、Safari、Microsoft Edge対応のスクロールバー非表示コード*/
+}
+
+#ball{
+  width:250px;
+  height:250px;
+/*   background-color:red; */
+	border-radius: 50%;
+}
+
+#ball2{
+  width:150px;
+  height:150px;
+  background-color:blue;
+	border-radius: 50%;
+  position:absolute;
+  margin:50px;
+}
