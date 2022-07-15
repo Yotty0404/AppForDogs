@@ -6,8 +6,8 @@ $(".start").on("click", function(){
 
 var flagReverseX = false;
 var flagReverseY = false;
-var speedX = 8;
-var speedY = 8;
+var speedX = 12;
+var speedY = 12;
 
 var ballTop = 0;
 var ballLeft = 0;
