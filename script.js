@@ -64,7 +64,7 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-var music = new Audio('https://drive.google.com/uc?export=view&id=1TEHE471dubM9TR7tG6z5gZcCR6opA8ow');
+var music = new Audio('pf.wav');
 
 async function touch(event){
   music.play();
